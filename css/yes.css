@@ -1,0 +1,85 @@
+
+.kilig img{
+    width: 200px;
+}
+
+.kilig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:3em;
+}
+
+.g{
+    width: 150px;
+}
+
+.group1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap:2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    z-index: 55;
+    margin-top: 2em;
+}
+
+.group1 button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px ;
+    padding-bottom:5px ;
+    font-weight: bold;
+    font-family: Poppins;
+    z-index: 4444;
+    border: 2px solid red;
+}
+
+.group1 button:hover{
+    background: white;
+    border: 2px solid black;
+}
+
+.ask{		
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    z-index: 5555555;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    margin-top: em;
+    position: relative;											                   
+}
+
+.btn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2em;				
+}
+
+#btn1{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px ;
+    padding-bottom:5px ;
+    font-weight: bold;
+    font-family: Poppins;
+    border: 2px solid black;
+}
+
+#btn1:hover{
+    background: white;
+    border: 2px solid black;
+}
+
+.fff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
